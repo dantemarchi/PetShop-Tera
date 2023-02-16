@@ -39,7 +39,7 @@ h3 {
 
 .meio {
     position: relative;
-    width: 50%;
+    width: 100%;
     transform: translateY(-50%);
     top: 50%;
     left: 0;
@@ -49,11 +49,13 @@ h3 {
 
 .meio .flex {
     width: 50%;
+    padding: 24px;
 }
 
 .meio img {
     height: 192px;
     width: 370px;
+    float: right;
 }
 
 #content {
